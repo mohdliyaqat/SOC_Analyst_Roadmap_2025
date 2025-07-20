@@ -41,5 +41,5 @@ This journey is structured into three key phases, each building upon the last:
 ---
 
 ## Connect with me:
-* **LinkedIn:** [Your LinkedIn Profile URL Here]
+* **LinkedIn:** [not yet updated]
 * **GitHub Profile:** [https://github.com/mohdliyaqat](https://github.com/mohdliyaqat)
