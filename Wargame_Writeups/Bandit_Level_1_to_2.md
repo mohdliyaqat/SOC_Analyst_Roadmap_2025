@@ -1,14 +1,3 @@
-Got it. Thanks for providing the additional context and your successful solution for Bandit Level 1, especially using `cat ./-`. This is a very common and effective way to solve the "dashed filename" problem.
-
-Let's update the write-up for **`Wargame_Writeups/Bandit_Level_1_to_2.md`** to reflect your specific methodology using `cat ./-`. This will make your write-up even more accurate to your process.
-
------
-
-**File Location:** `SOC_Analyst_Roadmap_2025/Wargame_Writeups/Bandit_Level_1_to_2.md`
-
-**Content to Copy and Paste:**
-
-````markdown
 # OverTheWire Bandit: Level 1 → Level 2 Write-up
 
 ## 1. Level Goal
@@ -61,4 +50,3 @@ The password for the next level is stored in a file called `-` (a single dash) l
 ---
 
 **Next Step:** You can now log into Bandit Level 2 using the extracted password.
-````
