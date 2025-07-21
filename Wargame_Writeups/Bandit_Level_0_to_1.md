@@ -1,7 +1,7 @@
 # OverTheWire Bandit: Level 0 → Level 1 Write-up
 
 ## 1. Level Goal
-The password for the next level (Bandit Level 1) is stored in a file named `readme` located in the home directory of the `bandit0` user. The task is to find this password and use it to log into `bandit1` via SSH on port 2220.
+The password for the next level (Bandit Level 1) is stored in a file called `readme` located in the home directory of the `bandit0` user. The task is to find this password and use it to log into `bandit1` via SSH on port 2220.
 
 ## 2. Commands Used
 * `ssh`: Secure Shell client (for connecting to the remote server).
@@ -27,9 +27,7 @@ The password for the next level (Bandit Level 1) is stored in a file named `read
         ```bash
         cat readme
         ```
-    * The output displayed the password along with some welcome messages and rules from OverTheWire.
-4.  **Extracted Password:**
-    * The password for Bandit Level 1 was: `ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If`
+    * The output displayed the password (which was successfully extracted) along with some welcome messages and rules from OverTheWire.
 
 ## 4. Key Learnings & Cybersecurity Context
 * **SSH (Secure Shell):** This level reinforced the fundamental use of `ssh` for secure remote access to Linux systems, a core skill for any cybersecurity professional, especially for managing servers or investigating incidents. The `-p` flag for specifying a custom port is also a common real-world scenario.
@@ -39,7 +37,4 @@ The password for the next level (Bandit Level 1) is stored in a file named `read
 
 ---
 
-**Next Step:** You can now log into Bandit Level 1 using the password `ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If`.
-
-```bash
-ssh bandit1@bandit.labs.overthewire.org -p 2220
+**Next Step:** You can now log into Bandit Level 1 using the extracted password.
